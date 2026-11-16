@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Oil Field Daily Reports (Training Demo)</title>
+  <script src="/web/views/search.js"></script>
+</head>
+<body>
+  <h1>Oil Field Daily Reports</h1>
+  <p><strong>Training demo only.</strong> This app contains intentional security flaws.</p>
+  <form action="/" method="get">
+    <input name="q" placeholder="Search field name">
+    <button type="submit">Search</button>
+  </form>
+  <h2 id="search-title"></h2>
+  <ul>
+    <li><a href="/api/reports?field_id=F-101">Report for field F-101</a></li>
+    <li><a href="/api/reports/summary">Production summary</a></li>
+  </ul>
+</body>
+</html>
